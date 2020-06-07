@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="StyleTheme">
+        <item name="android:background">@color/grey</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:padding">@dimen/margin_4</item>
+        <item name="android:textSize">@dimen/size_12</item>
+        <item name="android:textScaleX">1.1</item>
+    </style>
+
+    <style name="ratingBar" parent="android:style/Widget.Material.RatingBar">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="radioButton" parent="Theme.AppCompat" >
+        <item name="android:textSize">@dimen/size_20</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>
